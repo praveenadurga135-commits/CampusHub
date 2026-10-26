@@ -1,5 +1,5 @@
 
-const API_URL = "http://localhost:4000/api";
+const API_URL = "https://campushub-swjh.onrender.com/api";
 
 export async function apiRequest(path, options = {}) {
   const token = localStorage.getItem("token");
